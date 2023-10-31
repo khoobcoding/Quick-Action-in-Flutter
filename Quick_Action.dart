@@ -1,3 +1,15 @@
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  quick_actions: ^1.0.6  // Add this package 
+
+// Make Sure Android (minsdkversion is 16 above ) Ios ( 9 above )
+
+// Add ICONS  from https://fonts.google.com/ by downloading in Png
+// Android add these icons in drawable folder foun in main
+// Ios add these icons in Assets.xcassets found in Runner    
+
 import 'package:example/Call_Page.dart';
 import 'package:example/Chat_Page.dart';
 import 'package:example/Search_Page.dart';
